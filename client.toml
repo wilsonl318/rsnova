@@ -16,7 +16,7 @@ ping_interval_sec = 10
 conns_per_host = 1
 max_alive_mins = 40
 # cipher to communicate with server
-cipher = {key="abcdefg", method = "chacha20poly1305"}
+cipher = {key="letmeseethisisapassword", method = "AES128"}
 
 
 # [[channel]]
